@@ -1,0 +1,11 @@
+{
+  "/page": "app/page.js",
+  "/api/movies/route": "app/api/movies/route.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/movies/[id]/page": "app/movies/[id]/page.js",
+  "/api/movies/[id]/comments/route": "app/api/movies/[id]/comments/route.js",
+  "/api/movies/[id]/route": "app/api/movies/[id]/route.js",
+  "/auth/signin/page": "app/auth/signin/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/profile/page": "app/profile/page.js"
+}
