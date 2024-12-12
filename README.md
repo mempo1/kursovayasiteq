@@ -109,10 +109,7 @@ Server-side components handle:
 
 ### Environment Setup
 1. Clone the repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+2. Install dependencies: npm install
 3. Create a `.env.local` file with the following content:
    ```env
    MONGODB_URI=mongodb://localhost:27017/movies
@@ -120,21 +117,16 @@ Server-side components handle:
    NEXTAUTH_SECRET=your-secret-key-here
    ```
 
-### Database Setup
+### Admin Script
 1. Start MongoDB service
-2. Create admin user:
-   ```bash
-   npm run create-admin
-   ```
+2. Create admin user:  npm run create-admin
    This will create an admin user with:
    - Email: admin@example.com
    - Password: admin123
 
 ### Running the Application
-1. Start the development server:
-   ```bash
-   npm run dev
-   ```
+1. Start the development server: npm run dev
+
 2. Access the application:
    - Main interface: [http://localhost:3000](http://localhost:3000)
    - Admin panel: [http://localhost:3000/admin](http://localhost:3000/admin)
@@ -153,7 +145,7 @@ Server-side components handle:
 ### Authentication Routes
 - `POST /api/auth/register` - User registration
 - `POST /api/auth/signin` - User login
-- `GET /api/auth/signout` - User logout
+- `POST /api/auth/signout` - User logout
 
 ## Database Models
 
@@ -209,12 +201,4 @@ Server-side components handle:
 - Detailed error logging
 - User-friendly error messages
 
-## Contributing
-1. Fork the repository
-2. Create a feature branch
-3. Commit changes
-4. Push to the branch
-5. Create a Pull Request
 
-## License
-This project is licensed under the MIT License.
